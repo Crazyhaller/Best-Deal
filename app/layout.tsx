@@ -10,8 +10,8 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'Track Me',
-  description: 'A price tracking web scraping app for Amazon products.',
+  title: 'Best Deal',
+  description: 'A price tracker web scraping app for Amazon products.',
 }
 
 export default function RootLayout({
