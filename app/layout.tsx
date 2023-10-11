@@ -10,7 +10,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'Best Deal',
+  title: 'BestDeal',
   description: 'A price tracker web scraping app for Amazon products.',
 }
 
