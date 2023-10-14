@@ -59,3 +59,17 @@ export async function getProductById(productId: string) {
     throw new Error(`Failed to get product: ${error.message}`)
   }
 }
+
+export async function getAllProducts() {
+  try {
+    connectDB()
+
+    const products = await Product.find()
+
+    if (!products) return null
+
+    return products
+  } catch (error: any) {
+    throw new Error(`Failed to get products: ${error.message}`)
+  }
+}
